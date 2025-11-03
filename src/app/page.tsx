@@ -1,7 +1,11 @@
 import React from 'react'
-
+import { Button } from '@/components/ui/button'
 export default function Page() {
   return (
-    <div>Hello world </div>
+    <div className='font-bold'>
+      <Button variant="destructive">
+        Click me 
+      </Button>
+       </div>
   )
 }
